@@ -37,12 +37,12 @@ void RabinKarp(string pat, string txt, int q) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie();
+	ios_base::sync_with_stdio(0);
+	cin.tie(0); cout.tie();
 
-    string text, pattern;
+	string text, pattern;
 
-    getline(cin, text); getline(cin, pattern);
+	getline(cin, text); getline(cin, pattern);
 
 	// Loi dung phep Overflow de tinh mod
 	int q = INT_MAX;
